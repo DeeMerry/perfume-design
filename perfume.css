@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+.main{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+
+.D-image{
+    width: 400px;
+    height: 450px;
+    padding-top: 85px;
+    padding-left: 3rem;
+    background: rgb(240, 238, 238);
+    border: 1px solid transparent;
+    border-top-left-radius: 30px;
+
+}
+
+img{
+    width: 100%;
+    padding-right: 30px; 
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.text{
+    width: 400px;
+    height: 450px;
+    border: 1px solid transparent;
+    padding: 19px;
+    border-bottom-right-radius: 30px;
+    background: rgb(240, 238, 238);
+
+}
+
+.text h2{
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px rgb(150, 145, 145);
+    color: rgb(252, 252, 252);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text h3{
+    font-size: 42px;
+    font-family: Georgia;
+    padding-top: 18px;
+}
+
+.text p{
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(139, 139, 139);
+    padding-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.price{
+    display: flex;
+    padding-top: 10px;
+}
+
+.price .price2
+{
+    padding-left: 50px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.price .price1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background:  rgb(240, 238, 238);
+    border-radius: 10px; 
+    border-color: white;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+}
+
+@media screen and (max-width: 450px){
+    .main{
+        flex-direction: column;
+    }
+
+    img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .price2{
+        text-align: center;
+    }
+}
